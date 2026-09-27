@@ -1,0 +1,12 @@
+name: DeepSeek for MCP Learning
+version: 0.0.1
+schema: v1
+models:
+  - name: DeepSeek Flash
+    provider: deepseek
+    model: deepseek-flash
+    apiKey: ${{ secrets.DEEPSEEK_API_KEY }}
+    roles:
+      - chat
+    capabilities:
+      - tool_use

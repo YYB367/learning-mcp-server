@@ -1,0 +1,10 @@
+{
+  "servers": {
+    "learning-mcp-server": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["./node_modules/tsx/dist/cli.mjs", "./src/index.ts"],
+      "cwd": "${workspaceFolder}"
+    }
+  }
+}

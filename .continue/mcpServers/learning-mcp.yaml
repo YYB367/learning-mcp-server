@@ -1,0 +1,11 @@
+name: Learning MCP Server
+version: 0.0.1
+schema: v1
+mcpServers:
+  - name: learning-mcp-server
+    type: stdio
+    command: node
+    args:
+      - ./node_modules/tsx/dist/cli.mjs
+      - ./src/index.ts
+    cwd: .
